@@ -1,0 +1,24 @@
+#include <iostream>
+#include <cstring>
+using namespace std; 
+int vis[25][50];
+int cnt;
+int n;
+void dfs(int x,int y,int cur){
+	if(cur >= n){
+		cnt++;
+		return;
+	}
+	vis[x][y] = 1;
+	if(!vis[x][y-1]){dfs(x,y-1,cur+1);}
+	if(!vis[x+1][y]){dfs(x+1,y,cur+1);}
+	if(!vis[x][y+1]){dfs(x,y+1,cur+1);}
+	vis[x][y] = 0;
+}
+int main(){
+	cin >> n;
+	memset(vis,0,sizeof(vis));
+	dfs(0,25,0);
+	cout << cnt << endl;
+	return 0;
+}

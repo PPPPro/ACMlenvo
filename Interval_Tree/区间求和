@@ -1,0 +1,46 @@
+// POJ 3468 A Simple Problem with Integers 
+ 
+// 给定Q (1 ≤ Q ≤ 100,000)个数A1,A2 … AQ,， 
+// 以及可能多次进行的两个操作: 
+// 1) 对某个区间Ai … Aj的每个数都加n(n可变）
+// 2)  求某个区间Ai … Aj的数的和 
+#include <stdio.h>
+#include <iostream>
+#include <cstdlib>
+#include <cmath>
+#include <cctype>
+#include <string>
+#include <cstring>
+#include <algorithm>
+#include <stack>
+#include <queue>
+#include <set>
+#include <map>
+#include <ctime>
+#include <vector>
+#include <fstream>
+#include <list>
+#include <iomanip>
+#include <numeric>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+#define ms(s) memset(s, 0, sizeof(s))
+const int inf = 0x3f3f3f3f;
+#define LOCAL
+struct Node
+{
+	
+};
+
+
+int main(int argc, char * argv[]) 
+{
+    
+
+    /* code */
+
+    
+
+    return 0;
+}
